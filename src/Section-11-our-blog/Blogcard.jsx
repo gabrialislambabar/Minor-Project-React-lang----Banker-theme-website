@@ -8,7 +8,7 @@ function Blogcard({ img, title, description, externalLink, author, date, newsLin
           <ul className="list-group list-group-flush">
             <li className="list-group-item">{author}</li>
             <li className="list-group-item">{date}</li>
-            <li>
+            <li className="list-group-item">
               <a href={newsLink} className="card-link">
                 News
               </a>

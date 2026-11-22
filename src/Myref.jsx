@@ -20,7 +20,7 @@ function TransactionSearch() {
   }
 
   return (
-    <div className="container py-5">
+    <div className="container py-5" id="search">
       <div className="card shadow-sm">
         <div className="card-body">
           <h3 className="mb-1">Transaction Search</h3>

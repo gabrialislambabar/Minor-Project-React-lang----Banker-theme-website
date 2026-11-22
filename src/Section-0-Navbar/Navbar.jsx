@@ -1,12 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
-
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top px-3">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top px-3 shadow-sm">
       <div className="container-fluid">
-        <Link className="navbar-brand fw-bold" to="/">
+        <a className="navbar-brand fw-bold" href="#home">
           🏦 Banker
-        </Link>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,40 +19,46 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">Home</NavLink>
+              <a className="nav-link" href="#home">Home</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/account-setup">Setup</NavLink>
+              <a className="nav-link" href="#search">Search</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about">About</NavLink>
+              <a className="nav-link" href="#transactions">Transactions</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/team">Team</NavLink>
+              <a className="nav-link" href="#setup">Setup</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/gallery">Gallery</NavLink>
+              <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/how-it-works">How It Works</NavLink>
+              <a className="nav-link" href="#team">Team</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/services">Services</NavLink>
+              <a className="nav-link" href="#gallery">Gallery</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/reviews">Reviews</NavLink>
+              <a className="nav-link" href="#how-it-works">How It Works</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
+              <a className="nav-link" href="#services">Services</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/faq">FAQ</NavLink>
+              <a className="nav-link" href="#reviews">Reviews</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/blog">Blog</NavLink>
+              <a className="nav-link" href="#pricing">Pricing</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">Contact</NavLink>
+              <a className="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#blog">Blog</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

@@ -31,7 +31,7 @@ function Pricing() {
     },
   ];
   return (
-    <section className="pricing py-5">
+    <section className="pricing py-5" id="pricing">
       <style>{`
         .pricing {
           overflow-x: hidden;

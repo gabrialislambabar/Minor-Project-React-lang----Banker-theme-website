@@ -33,7 +33,7 @@ const testimonials = [
 
 function Customerreview() {
   return (
-    <section className="customerreview text-center py-5">
+    <section className="customerreview text-center py-5" id="reviews">
       <style>{`
         .customerreview {
           overflow-x: hidden;

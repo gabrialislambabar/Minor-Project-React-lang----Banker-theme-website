@@ -2,7 +2,7 @@ import Blogcard from "./Blogcard";
 
 function Blog() {
   return (
-    <section className="blog py-5">
+    <section className="blog py-5" id="blog">
       <style>{`
         .blog {
           overflow-x: hidden;

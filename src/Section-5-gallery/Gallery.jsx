@@ -61,11 +61,13 @@ function Gallery() {
   const applyFilter = (type) => {
     setFilter(type);
     const selector = type === "all" ? "all" : `.${type}`;
-    mixerRef.current.filter(selector);
+    if (mixerRef.current) {
+      mixerRef.current.filter(selector);
+    }
   };
 
   return (
-    <section className="gallery-section py-5">
+    <section className="gallery-section py-5" id="gallery">
       <div className="container-fluid px-3 px-md-5">
         <div className="text-center mb-5">
           <p className="text-uppercase small fw-semibold gallery-eyebrow mb-2">

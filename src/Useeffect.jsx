@@ -218,7 +218,7 @@ function RecentTransactions() {
    * and uses them to determine the UI.
    */
   return (
-    <div className="container py-5">
+    <div className="container py-5" id="transactions">
       <div className="card shadow-sm">
         <div className="card-body">
           {/* -------------------------------------------------

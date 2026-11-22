@@ -28,7 +28,7 @@ const data = [
 
 function Email() {
   return (
-    <section className="email py-5">
+    <section className="email py-5" id="setup">
       <div className="container px-3 px-md-4">
         {/* Services Section */}
         <div className="text-center mb-5">

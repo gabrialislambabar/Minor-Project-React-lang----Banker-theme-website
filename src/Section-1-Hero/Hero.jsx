@@ -27,7 +27,7 @@ const Heroslider = [
 
 function Hero() {
   return (
-    <section className="hero text-center py-5">
+    <section className="hero text-center py-5" id="home">
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 

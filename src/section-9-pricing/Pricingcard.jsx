@@ -15,7 +15,7 @@ function Pricingcard({ model, price, feat1, feat2, feat3, feat4, feat5 }) {
         </ul>
       </div>
 
-      <Button />
+      <Button label="Choose Plan" />
     </div>
   );
 }

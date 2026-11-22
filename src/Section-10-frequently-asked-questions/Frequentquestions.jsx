@@ -1,7 +1,7 @@
 import Questiontemp from "./Questiontemp";
 function Frequentquestions() {
   return (
-    <section className="frequentquestions py-5">
+    <section className="frequentquestions py-5" id="faq">
       <style>{`
         .frequentquestions {
           overflow-x: hidden;

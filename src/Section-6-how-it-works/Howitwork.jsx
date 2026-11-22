@@ -52,7 +52,7 @@ function Howitwork() {
   };
 
   return (
-    <section className="howitwork py-5">
+    <section className="howitwork py-5" id="how-it-works">
       <div className="container">
         <div className="text-center mb-5">
           <p className="text-uppercase small fw-semibold howitwork-eyebrow mb-2">
